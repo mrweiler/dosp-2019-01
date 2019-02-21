@@ -1,6 +1,14 @@
 ---
 title: "Untitled"
-output: revealjs::revealjs_presentation
+output:
+  revealjs::revealjs_presentation:
+    theme: black
+    center: TRUE
+    self_contained: FALSE
+    reveal_plugins: ["chalkboard"]
+    reveal_options:
+      chalkboard: 
+      readonly: FALSE
 ---
 
 ## R Markdown
