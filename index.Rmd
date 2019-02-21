@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: <small>An introduction to digital open <br>research in clinical psychology</small>
 output:
   revealjs::revealjs_presentation:
     theme: black
