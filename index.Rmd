@@ -13,27 +13,332 @@ output:
       readonly: FALSE
 ---
 
-## R Markdown
+# <small>Who am I?</small>
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+----
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+My name is Matthias Weiler
 
-## Slide with Bullets
+----
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+I am a psychologist
 
-## Slide with R Code and Output
+----
 
-```{r}
-summary(cars)
-```
+I am a psychotherapist
 
-## Slide with Plot
+----
 
-```{r, echo=FALSE}
-plot(cars)
-```
+I work as a research assistant <br>at Freie Universität Berlin
 
+----
+
+I am a nerd
+
+----
+
+I like free software
+
+----
+
+I like open science
+
+
+
+# <small>And who are you?</small>
+
+----
+
+Please raise your hand ...
+
+----
+
+... if you study psychology
+
+----
+
+... if you want to become a psychotherapist
+
+----
+
+... if you want to become a scientist
+
+----
+
+... if you have participated in <br>a (small) research project
+
+----
+
+... if you know what open science is
+
+----
+
+... if you are (a little) anxious <br>to speak English in class
+
+
+
+# <small>What are we going to do here?</small>
+
+----
+
+In the course of this semester you will...
+
+----
+
+... learn what open science is
+
+----
+
+... get to know tools that help <br>you with your research
+
+----
+
+... plan and conduct a small research project
+
+----
+
+... present your results to others
+
+
+
+# <small>Any questions so far?</small>
+
+
+
+# <small>Today:<br>Introduction to digital open science</small>
+
+
+
+# <small>Science - how does it work?</small>
+
+----
+
+The hypothetico-deductive model (Munafo et al. 2017)  
+![The hypothetico-deductive model](img/s41562-016-0021-f1_edited.jpg)  
+<small>Source (edited): https://media.nature.com/lw926/nature-assets/nathumbehav/2017/s41562-016-0021/images_hires/s41562-016-0021-f1.jpg</small>
+
+----
+
+What could possibly go wrong?
+
+
+
+# <small>Quiz</small>
+
+----
+
+Which of the following articles <br>was actually published?
+
+----
+
+*A) Chocolate causes weight loss*  
+or  
+*B) Chocolate does not help you lose weight*
+
+----
+
+## <small>And the winner is ...</small>
+
+*A) Chocolate causes weight loss*
+
+----
+
+<a href="https://de.scribd.com/doc/266969860/Chocolate-causes-weight-loss">... except it doesn't</a>
+
+
+
+# <small>Question</small>
+
+----
+
+Why did it get published anyway?
+
+----
+
+## <small>Answer</small>
+
+Because positive and novel studies are <br>
+more likely to be published whereas <br>
+negative studies and replications usually<br>
+remain inside the scientists’ drawers
+
+----
+
+This is known as *publication bias* and  
+can lead to "interesting" situations
+
+
+
+# <small>The case of Bem</small>
+
+----
+
+*There is no cost to getting things wrong*  
+*The cost is not getting them published*  
+  
+Prof. Brian Nosek
+
+----
+
+*Feeling the future: Experimental evidence <br>*
+*for anomalous retroactive influences on <br>*
+*cognition and affect* (Bem, 2011)
+
+----
+
+## <small>Please raise your hand...</small>
+... if you believe that your <br>
+current thoughts and feelings <br>
+are influenced by future events
+
+----
+
+Precognition conflicts with what we <br>
+know to be true about the world  
+
+----
+
+Still, researchers failing to reproduce Bem's <br>
+findings had substantial problems getting <br>
+their negative results published
+
+----
+
+Rather ironically, some of Bem's findings <br>
+are the result of HARKing, which stands for <br>
+"Hypothesizing After the Results are Known"
+
+
+
+# <small>Brian Wansink's Pizzagate</small>
+
+----
+
+## <small>Scientists have a need for significance</small>
+
+![P-Values](img/p_values.png)  
+<small><a href = "https://imgs.xkcd.com/comics/p_values.png">"P-Values"</a> by <a href = "xkcd.com">xkcd.com</a> is licensed under <a href = "https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></small>
+
+----
+
+![Pizzagate](img/sub-buzz-5910-1519337798-6_01.jpg)  
+<small>Source: https://img.buzzfeed.com/buzzfeed-static/static/2018-02/22/17/asset/buzzfeed-prod-fastlane-02/sub-buzz-5910-1519337798-6.jpg</small>
+
+----
+
+![Pizzagate](img/sub-buzz-5910-1519337798-6_02.jpg)  
+<small>Source: https://img.buzzfeed.com/buzzfeed-static/static/2018-02/22/17/asset/buzzfeed-prod-fastlane-02/sub-buzz-5910-1519337798-6.jpg</small>
+
+----
+
+![Pizzagate](img/sub-buzz-5910-1519337798-6_03.jpg)  
+<small>Source: https://img.buzzfeed.com/buzzfeed-static/static/2018-02/22/17/asset/buzzfeed-prod-fastlane-02/sub-buzz-5910-1519337798-6.jpg</small>
+
+----
+
+The process described here is known  
+as *p-hacking* or <a href = "https://en.wikipedia.org/wiki/Data_dredging">*data dredging* </a>which <br>is the art of getting significant results
+
+----
+
+Visit <a href = "http://shinyapps.org/apps/p-hacker/">p-hacker </a>and train your <br>
+p-hacking skills today!
+
+
+
+# <small>Other issues</small>
+
+----
+
+## <small>Failure to control for bias</small>
+
+- Humans are prone to <a href = "https://en.wikipedia.org/w/index.php?title=List_of_cognitive_biases">cognitive biases</a>
+- Scientists are humans
+- Scientists are prone to cognitive biases (too)
+
+----
+
+## <small>Poor quality control</small>
+
+- <a href = "http://andrewgelman.com/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/">"Bad things happen when we don’t <br>think seriously about measurement"</a>
+- Sloppy measurement often leads <br>to "noisy data"
+- Noisy data leads to low statistical power
+
+----
+
+## <small>Low statistical power</small>
+
+- $\alpha$: The conditional probability of incorrectly <br>
+  rejecting H0 when it actually is true.
+- $\beta$: The conditional probability of failing <br>
+  to reject H0 when it is false.
+- Power: The complement of β (i.e. 1 - β), this is the <br>
+  probability of correctly rejecting H0 when it is false.
+- <a href="http://rpsychologist.com/d3/NHST/">Understanding Statistical Power <br>
+  and Significance Testing</a>
+
+
+
+# <small>Summary</small>
+
+----
+
+The hypothetico-deductive model (Munafo et al. 2017)  
+![The hypothetico-deductive model](img/s41562-016-0021-f1_edited.jpg)  
+<small>Source (edited): https://media.nature.com/lw926/nature-assets/nathumbehav/2017/s41562-016-0021/images_hires/s41562-016-0021-f1.jpg</small>
+
+----
+
+The hypothetico-deductive model (Munafo et al. 2017)  
+![The hypothetico-deductive model](img/s41562-016-0021-f1.jpg)  
+<small>Source (edited): https://media.nature.com/lw926/nature-assets/nathumbehav/2017/s41562-016-0021/images_hires/s41562-016-0021-f1.jpg</small>
+
+----
+
+## <small>Open science to the rescue</small>
+
+
+
+# <small>Seven easy steps for open science</small>
+
+----
+
+![Open science made easy](img/OSC_Flyer_15x15_Englisch_1.png)  
+<small>Source: https://mfr.osf.io/render?url=https://osf.io/hktmf/?action=download%26mode=render</small>
+
+----
+
+![Open science made easy](img/OSC_Flyer_15x15_Englisch_2.png)  
+<small>Source: https://mfr.osf.io/render?url=https://osf.io/hktmf/?action=download%26mode=render</small>
+
+
+
+# <small>Any more questions?</small>
+
+
+
+# <small>Next week preview</small>
+
+----
+
+Digital open scientist's toolbox - Part I
+
+----
+
+<a href="https://osf.io">The Open Science Framework</a>
+
+
+
+# <small>Homework</small>
+
+----
+
+Get an account at <a href="https://osf.io">https://osf.io</a>
+
+----
+
+Send your email address to <br><a href="mailto:m.weiler@fu-berlin.de">m.weiler@fu-berlin.de</a>
+
+
+
+# Thank you for your attention
