@@ -1,7 +1,7 @@
 ---
 title: <small>An introduction to digital open <br>research in clinical psychology</small>
 author: <small>Matthias Weiler</small>
-date: <small>25.02.2019</small>
+date: <small>29.02.2019</small>
 output:
   revealjs::revealjs_presentation:
     theme: black
@@ -105,7 +105,7 @@ In the course of this semester you will...
 
 
 
-# <small>Today:<br>Introduction to digital open science</small>
+# <small>Today:<br>Why would I care for open science?</small>
 
 
 
@@ -139,11 +139,11 @@ or
 
 ## <small>And the winner is ...</small>
 
-*A) Chocolate causes weight loss*
+<a href="https://de.scribd.com/doc/266969860/Chocolate-causes-weight-loss">*A) Chocolate causes weight loss*</a>
 
 ----
 
-<a href="https://de.scribd.com/doc/266969860/Chocolate-causes-weight-loss">... except it doesn't</a>
+<a href="https://io9.gizmodo.com/i-fooled-millions-into-thinking-chocolate-helps-weight-1707251800">... except it doesn't</a>
 
 
 
@@ -164,12 +164,7 @@ remain inside the scientists’ drawers
 
 ----
 
-This is known as *publication bias* and  
-can lead to "interesting" situations
-
-
-
-# <small>The case of Bem</small>
+This is known as *publication bias*
 
 ----
 
@@ -178,11 +173,9 @@ can lead to "interesting" situations
   
 Prof. Brian Nosek
 
-----
 
-*Feeling the future: Experimental evidence <br>*
-*for anomalous retroactive influences on <br>*
-*cognition and affect* (Bem, 2011)
+
+# <small>Feeling the future</small>
 
 ----
 
@@ -190,6 +183,12 @@ Prof. Brian Nosek
 ... if you believe that your <br>
 current thoughts and feelings <br>
 are influenced by future events
+
+----
+
+*Feeling the future: Experimental evidence <br>*
+*for anomalous retroactive influences on <br>*
+*cognition and affect* (Bem, 2011)
 
 ----
 
@@ -210,7 +209,69 @@ are the result of HARKing, which stands for <br>
 
 
 
-# <small>Brian Wansink's Pizzagate</small>
+# <small>Exercises</small>
+
+----
+
+Please pair up with the  
+person sitting next to you
+
+----
+
+## <small>Exercise 1</small>
+
+----
+
+Person 1: Please think of a  
+number between 1 and 100
+
+----
+
+Person 2: Guess person 1's number
+
+----
+
+Person 1: Please tell person 2  
+the number you thought of
+
+----
+
+Who of you made the right guess?
+
+----
+
+## <small>Exercise 2</small>
+
+----
+
+Person 1: Please think of a  
+number between 1 and 100
+
+----
+
+Person 1: Please tell person 2  
+the number you thought of
+
+----
+
+Person 2: Guess person 1's number
+
+----
+
+Who of you made the right guess?
+
+----
+
+This is how HARKing works
+
+----
+
+Except, instead of guessing a number you  
+would try to answer a research question
+
+
+
+# <small>The pizza papers</small>
 
 ----
 
@@ -246,27 +307,24 @@ p-hacking skills today!
 
 
 
-# <small>Other issues</small>
+# <small>Power up</small>
 
 ----
 
-## <small>Failure to control for bias</small>
-
-- Humans are prone to <a href = "https://en.wikipedia.org/w/index.php?title=List_of_cognitive_biases">cognitive biases</a>
-- Scientists are humans
-- Scientists are prone to cognitive biases (too)
+What if there is an effect  
+and you just can't find it?
 
 ----
 
-## <small>Poor quality control</small>
+## <small>Power posing</small>
 
-- <a href = "http://andrewgelman.com/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/">"Bad things happen when we don’t <br>think seriously about measurement"</a>
-- Sloppy measurement often leads <br>to "noisy data"
-- Noisy data leads to low statistical power
+![Power posing](img/256px-Power_pose_by_Amy_Cuddy_at_PopTech_2011_(6279920726).jpg) 
+
+<small>Source: Erik (HASH) Hersman from Orlando [<a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Power_pose_by_Amy_Cuddy_at_PopTech_2011_(6279920726).jpg">via Wikimedia Commons</a></small>
 
 ----
 
-## <small>Low statistical power</small>
+## <small>Statistical power in a nutshell</small>
 
 - $\alpha$: The conditional probability of incorrectly <br>
   rejecting H0 when it actually is true.
@@ -274,8 +332,19 @@ p-hacking skills today!
   to reject H0 when it is false.
 - Power: The complement of β (i.e. 1 - β), this is the <br>
   probability of correctly rejecting H0 when it is false.
-- <a href="http://rpsychologist.com/d3/NHST/">Understanding Statistical Power <br>
+  
+----
+
+<a href="http://rpsychologist.com/d3/NHST/">Understanding Statistical Power <br>
   and Significance Testing</a>
+
+----
+
+## <small>Better science with quality control</small>
+
+- <a href = "http://andrewgelman.com/2015/04/28/whats-important-thing-statistics-thats-not-textbooks/">"Bad things happen when we don’t <br>think seriously about measurement"</a>
+- Sloppy measurement often leads <br>to "noisy data"
+- Noisy data leads to low statistical power
 
 
 
@@ -293,51 +362,17 @@ The hypothetico-deductive model (Munafo et al. 2017)
 ![The hypothetico-deductive model](img/s41562-016-0021-f1.jpg)  
 <small>Source (edited): https://media.nature.com/lw926/nature-assets/nathumbehav/2017/s41562-016-0021/images_hires/s41562-016-0021-f1.jpg</small>
 
-----
-
-## <small>Open science to the rescue</small>
-
-
-
-# <small>Seven easy steps for open science</small>
-
-----
-
-![Open science made easy](img/OSC_Flyer_15x15_Englisch_1.png)  
-<small>Source: https://mfr.osf.io/render?url=https://osf.io/hktmf/?action=download%26mode=render</small>
-
-----
-
-![Open science made easy](img/OSC_Flyer_15x15_Englisch_2.png)  
-<small>Source: https://mfr.osf.io/render?url=https://osf.io/hktmf/?action=download%26mode=render</small>
-
 
 
 # <small>Any more questions?</small>
 
 
 
-# <small>Next week preview</small>
+# <small>Next session preview</small>
 
 ----
 
-Digital open scientist's toolbox - Part I
-
-----
-
-<a href="https://osf.io">The Open Science Framework</a>
-
-
-
-# <small>Homework</small>
-
-----
-
-Get an account at <a href="https://osf.io">https://osf.io</a>
-
-----
-
-Send your email address to <br><a href="mailto:m.weiler@fu-berlin.de">m.weiler@fu-berlin.de</a>
+Open science to the rescue
 
 
 
