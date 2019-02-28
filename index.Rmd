@@ -364,9 +364,7 @@ The hypothetico-deductive model (Munafo et al. 2017)
 
 ----
 
-## <small><a href="https://www.youtube.com/watch?v=ZaNtz76dNSI">Interview with researcher</a></small>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZaNtz76dNSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=ZaNtz76dNSI">Interview with researcher</a>
 
 
 
